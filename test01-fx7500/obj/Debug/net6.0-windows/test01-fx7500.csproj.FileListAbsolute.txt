@@ -1,0 +1,38 @@
+C:\Users\mogetan\Downloads\test01-fx7500\test01-fx7500\bin\Debug\net6.0-windows\test01-fx7500.exe
+C:\Users\mogetan\Downloads\test01-fx7500\test01-fx7500\bin\Debug\net6.0-windows\test01-fx7500.deps.json
+C:\Users\mogetan\Downloads\test01-fx7500\test01-fx7500\bin\Debug\net6.0-windows\test01-fx7500.runtimeconfig.json
+C:\Users\mogetan\Downloads\test01-fx7500\test01-fx7500\bin\Debug\net6.0-windows\test01-fx7500.dll
+C:\Users\mogetan\Downloads\test01-fx7500\test01-fx7500\bin\Debug\net6.0-windows\test01-fx7500.pdb
+C:\Users\mogetan\Downloads\test01-fx7500\test01-fx7500\bin\Debug\net6.0-windows\Symbol.RFID3.Host.dll
+C:\Users\mogetan\Downloads\test01-fx7500\test01-fx7500\obj\Debug\net6.0-windows\test01-fx7500.csproj.AssemblyReference.cache
+C:\Users\mogetan\Downloads\test01-fx7500\test01-fx7500\obj\Debug\net6.0-windows\test01_fx7500.Form1.resources
+C:\Users\mogetan\Downloads\test01-fx7500\test01-fx7500\obj\Debug\net6.0-windows\test01-fx7500.csproj.GenerateResource.cache
+C:\Users\mogetan\Downloads\test01-fx7500\test01-fx7500\obj\Debug\net6.0-windows\test01-fx7500.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mogetan\Downloads\test01-fx7500\test01-fx7500\obj\Debug\net6.0-windows\test01-fx7500.AssemblyInfoInputs.cache
+C:\Users\mogetan\Downloads\test01-fx7500\test01-fx7500\obj\Debug\net6.0-windows\test01-fx7500.AssemblyInfo.cs
+C:\Users\mogetan\Downloads\test01-fx7500\test01-fx7500\obj\Debug\net6.0-windows\test01-fx7500.csproj.CoreCompileInputs.cache
+C:\Users\mogetan\Downloads\test01-fx7500\test01-fx7500\obj\Debug\net6.0-windows\test01-fx7500.csproj.CopyComplete
+C:\Users\mogetan\Downloads\test01-fx7500\test01-fx7500\obj\Debug\net6.0-windows\test01-fx7500.dll
+C:\Users\mogetan\Downloads\test01-fx7500\test01-fx7500\obj\Debug\net6.0-windows\refint\test01-fx7500.dll
+C:\Users\mogetan\Downloads\test01-fx7500\test01-fx7500\obj\Debug\net6.0-windows\test01-fx7500.pdb
+C:\Users\mogetan\Downloads\test01-fx7500\test01-fx7500\obj\Debug\net6.0-windows\test01-fx7500.genruntimeconfig.cache
+C:\Users\mogetan\Downloads\test01-fx7500\test01-fx7500\obj\Debug\net6.0-windows\ref\test01-fx7500.dll
+C:\Users\mogetan\Documents\GitHub\Zebra-FX_Basic Codes for Begineers\test01-fx7500\obj\Debug\net6.0-windows\test01-fx7500.csproj.AssemblyReference.cache
+C:\Users\mogetan\Documents\GitHub\Zebra-FX_Basic Codes for Begineers\test01-fx7500\obj\Debug\net6.0-windows\test01_fx7500.Form1.resources
+C:\Users\mogetan\Documents\GitHub\Zebra-FX_Basic Codes for Begineers\test01-fx7500\obj\Debug\net6.0-windows\test01-fx7500.csproj.GenerateResource.cache
+C:\Users\mogetan\Documents\GitHub\Zebra-FX_Basic Codes for Begineers\test01-fx7500\obj\Debug\net6.0-windows\test01-fx7500.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mogetan\Documents\GitHub\Zebra-FX_Basic Codes for Begineers\test01-fx7500\obj\Debug\net6.0-windows\test01-fx7500.AssemblyInfoInputs.cache
+C:\Users\mogetan\Documents\GitHub\Zebra-FX_Basic Codes for Begineers\test01-fx7500\obj\Debug\net6.0-windows\test01-fx7500.AssemblyInfo.cs
+C:\Users\mogetan\Documents\GitHub\Zebra-FX_Basic Codes for Begineers\test01-fx7500\obj\Debug\net6.0-windows\test01-fx7500.csproj.CoreCompileInputs.cache
+C:\Users\mogetan\Documents\GitHub\Zebra-FX_Basic Codes for Begineers\test01-fx7500\obj\Debug\net6.0-windows\test01-fx7500.dll
+C:\Users\mogetan\Documents\GitHub\Zebra-FX_Basic Codes for Begineers\test01-fx7500\obj\Debug\net6.0-windows\refint\test01-fx7500.dll
+C:\Users\mogetan\Documents\GitHub\Zebra-FX_Basic Codes for Begineers\test01-fx7500\obj\Debug\net6.0-windows\test01-fx7500.pdb
+C:\Users\mogetan\Documents\GitHub\Zebra-FX_Basic Codes for Begineers\test01-fx7500\bin\Debug\net6.0-windows\test01-fx7500.exe
+C:\Users\mogetan\Documents\GitHub\Zebra-FX_Basic Codes for Begineers\test01-fx7500\bin\Debug\net6.0-windows\test01-fx7500.deps.json
+C:\Users\mogetan\Documents\GitHub\Zebra-FX_Basic Codes for Begineers\test01-fx7500\bin\Debug\net6.0-windows\test01-fx7500.runtimeconfig.json
+C:\Users\mogetan\Documents\GitHub\Zebra-FX_Basic Codes for Begineers\test01-fx7500\bin\Debug\net6.0-windows\test01-fx7500.dll
+C:\Users\mogetan\Documents\GitHub\Zebra-FX_Basic Codes for Begineers\test01-fx7500\bin\Debug\net6.0-windows\test01-fx7500.pdb
+C:\Users\mogetan\Documents\GitHub\Zebra-FX_Basic Codes for Begineers\test01-fx7500\bin\Debug\net6.0-windows\Symbol.RFID3.Host.dll
+C:\Users\mogetan\Documents\GitHub\Zebra-FX_Basic Codes for Begineers\test01-fx7500\obj\Debug\net6.0-windows\test01-fx7500.csproj.CopyComplete
+C:\Users\mogetan\Documents\GitHub\Zebra-FX_Basic Codes for Begineers\test01-fx7500\obj\Debug\net6.0-windows\test01-fx7500.genruntimeconfig.cache
+C:\Users\mogetan\Documents\GitHub\Zebra-FX_Basic Codes for Begineers\test01-fx7500\obj\Debug\net6.0-windows\ref\test01-fx7500.dll
