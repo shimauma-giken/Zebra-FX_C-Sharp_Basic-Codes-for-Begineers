@@ -1,0 +1,209 @@
+Souce Code
+--------
+        // Read Notify Event
+        private void button11_Click(object sender, EventArgs e)
+        {
+
+            Debug.WriteLine("Start read notify events.");
+
+            // registering for read tag data notification
+
+            rfid3.Events.ReadNotify += new Events.ReadNotifyHandler(Events_ReadNotify);
+
+            // ReadNotify Event comes without tag data 
+
+            rfid3.Events.AttachTagDataWithReadEvent = false;
+
+
+            // Read Notify handler
+
+            void Events_ReadNotify(object sender, Events.ReadEventArgs e)
+
+            {
+                Debug.WriteLine("Detect read notify events.");
+
+
+                // fetch tags from the Dll by specifying the number of expected tags
+
+                Symbol.RFID3.TagData[] myTags = rfid3.Actions.GetReadTags(100);
+
+                if (myTags != null)
+                {
+                    for (int nIndex = 0; nIndex < myTags.Length; nIndex++)
+                    {
+                        if (myTags[nIndex].OpCode == ACCESS_OPERATION_CODE.ACCESS_OPERATION_NONE ||
+                           (myTags[nIndex].OpCode == ACCESS_OPERATION_CODE.ACCESS_OPERATION_READ &&
+                                    myTags[nIndex].OpStatus ==ACCESS_OPERATION_STATUS.ACCESS_SUCCESS))
+
+                        {
+                            Debug.WriteLine(myTags[nIndex].PC);
+                            Debug.WriteLine(myTags[nIndex].TagID);
+                            Debug.WriteLine(myTags[nIndex].AntennaID);
+                            Debug.WriteLine(myTags[nIndex].PeakRSSI);
+                            Debug.WriteLine(myTags[nIndex].AntennaPortInfo.ReceivePort);
+                            Debug.WriteLine(myTags[nIndex].ChannelIndex);
+                            Debug.WriteLine(myTags[nIndex].MemoryBank);
+                            Debug.WriteLine(myTags[nIndex].MemoryBankData);
+                            Debug.WriteLine(myTags[nIndex].OpCode);
+                            Debug.WriteLine(myTags[nIndex].OpStatus);
+                            Debug.WriteLine(myTags[nIndex].TagEvent);
+                            Debug.WriteLine(myTags[nIndex].TagSeenCount);
+                            Debug.WriteLine("------------");
+
+                            if (myTags[nIndex].MemoryBankData != String.Empty)
+                                Debug.WriteLine(myTags[nIndex].MemoryBank.ToString() +" : " + myTags[nIndex].MemoryBankData);
+
+                        }
+                    }
+                }
+            }
+
+
+
+            // Unregistering for read tag data notification
+
+            // rfid3.Events.ReadNotify -= new Events.ReadNotifyHandler(Events_ReadNotify);
+        }
+
+        // Simple inventory start
+        private void button12_Click(object sender, EventArgs e)
+        {
+            Debug.WriteLine("Start simple inventory.");
+            rfid3.Actions.Inventory.Perform();
+        }
+
+
+
+
+----
+Detect read notify events.
+12288
+E2806894000040064B01D938
+4
+-69
+0
+0
+MEMORY_BANK_EPC
+
+ACCESS_OPERATION_NONE
+ACCESS_SUCCESS
+NONE
+1
+------------
+13312
+0000000000A6000000000000
+4
+-62
+0
+0
+MEMORY_BANK_EPC
+
+ACCESS_OPERATION_NONE
+ACCESS_SUCCESS
+NONE
+1
+------------
+13312
+8765FF0C71B3FF0C71B394E6
+4
+-66
+0
+0
+MEMORY_BANK_EPC
+
+ACCESS_OPERATION_NONE
+ACCESS_SUCCESS
+NONE
+1
+------------
+Detect read notify events.
+13312
+534D43001EFE909301000001
+1
+-58
+0
+0
+MEMORY_BANK_EPC
+
+ACCESS_OPERATION_NONE
+ACCESS_SUCCESS
+NONE
+1
+------------
+13312
+0000000000A7000000000000
+4
+-61
+0
+0
+MEMORY_BANK_EPC
+
+ACCESS_OPERATION_NONE
+ACCESS_SUCCESS
+NONE
+1
+------------
+13312
+534D43001EFE909301000001
+4
+-60
+0
+0
+MEMORY_BANK_EPC
+
+ACCESS_OPERATION_NONE
+ACCESS_SUCCESS
+NONE
+1
+------------
+13312
+0000000000A9000000000000
+4
+-64
+0
+0
+MEMORY_BANK_EPC
+
+ACCESS_OPERATION_NONE
+ACCESS_SUCCESS
+NONE
+1
+------------
+13312
+00B07A148C1DA617102AC44A
+4
+-61
+0
+0
+MEMORY_BANK_EPC
+
+ACCESS_OPERATION_NONE
+ACCESS_SUCCESS
+NONE
+1
+------------
+13312
+0000000000A4000000000000
+1
+-59
+0
+0
+MEMORY_BANK_EPC
+
+ACCESS_OPERATION_NONE
+ACCESS_SUCCESS
+NONE
+1
+------------
+12288
+35E017020700000000484A08
+1
+-71
+0
+0
+MEMORY_BANK_EPC
+
+ACCESS_OPERATION_NONE
+ACCESS_SUCCESS
+NONE
+1
